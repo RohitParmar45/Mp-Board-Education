@@ -1,0 +1,10 @@
+include ':app'
+rootProject.name = "Mp Board Education"
+include ':NativeTemplatesAndroid-1.0.0'
+include ':nativetemplates'
+include ':commonlib'
+include ':sample'
+include ':example2'
+include ':mobilertc'
+include ':commonlibmp'
+include ':mobilertcmp'

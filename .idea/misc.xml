@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/NativeTemplatesAndroid-1.0.0/src/main/res/layout/gnt_medium_template_view.xml" value="0.1" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/NativeTemplatesAndroid-1.0.0/src/main/res/layout/gnt_small_template_view.xml" value="0.16988416988416988" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/drawable/box_hindi_medium.xml" value="0.1725" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/drawable/button_3.xml" value="0.2115" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/drawable/slight_radius_blacky.xml" value="0.1725" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/drawable/textbox.xml" value="0.2115" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/drawable/textboxtransparent.xml" value="0.152" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_bhautik.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_blueprints.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_chem_previous.xml" value="0.21" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_commerce_main.xml" value="0.25" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_faculty_fragment.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_ganit.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_hindi_main.xml" value="0.25" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_jiv.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_jiv_adapter.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_online_class_main.xml" value="0.25" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_pdf_view.xml" value="0.18" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_phy_previous.xml" value="0.25" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_prescience_sub.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_pyq_hindi.xml" value="0.1" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_rasayan.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_science_main.xml" value="0.1" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_tenth_home.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_tenth_main.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/fragment_home_com.xml" value="0.18" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/fragment_imp.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/fragment_notes.xml" value="0.1" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/impbook_item_layout.xml" value="0.1" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/main_dialog_firebase.xml" value="0.22" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/no_data_found.xml" value="0.1" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/no_internet_connection_lay.xml" value="0.21" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/notes_item_layout.xml" value="0.16" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/raw_leader.xml" value="0.10104166666666667" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/sample_layout_dialog.xml" value="0.21" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/transparentbox.xml" value="0.18" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/app/src/main/res/layout/viewpager_item_layout.xml" value="0.25" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/sample/src/main/res/drawable-xhdpi/textboxtransparent.xml" value="0.152" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/sample/src/main/res/layout/init_auth_sdk.xml" value="0.2" />
+        <entry key="..\:/New folder/Local Disks1[NTFS][112.54GB][S]/Root/d files/MpBoardEducation/sample/src/main/res/layout/sample_layout_dialog.xml" value="0.2" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/drawable/ic_notes.xml" value="0.118" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/drawable/white_rectangle.xml" value="0.1" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_ganit.xml" value="0.1" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_large_file_com.xml" value="0.1814814814814815" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_large_file_ten.xml" value="0.1814814814814815" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_large_files.xml" value="0.16898148148148148" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_online_class_main.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_pdf_view.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_science_main.xml" value="0.13159722222222223" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/activity_tenth_home.xml" value="0.18" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/fragment_home_com.xml" value="0.1361111111111111" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/fragment_imp.xml" value="0.1814814814814815" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/fragment_notes_com.xml" value="0.1814814814814815" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/main_dialog_firebase.xml" value="0.18" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/no_internet_connection_lay.xml" value="0.10231481481481482" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/notes_item_layout.xml" value="0.1814814814814815" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/notice_home.xml" value="0.25" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/sample_layout_dialog.xml" value="0.13159722222222223" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/spinkit_loading.xml" value="0.21" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/transparentbox.xml" value="0.13159722222222223" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/layout/zoom_notif_dialog.xml" value="0.17" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/menu/bottom_nav_commerce.xml" value="0.1814814814814815" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/app/src/main/res/menu/commerce_navigation.xml" value="0.1814814814814815" />
+        <entry key="..\:/New folder/folder 2 my/Root/d files/MpBoardEducation/nativetemplates/src/main/res/layout/gnt_medium_template_view.xml" value="0.13159722222222223" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
