@@ -1,0 +1,106 @@
+plugins {
+    id 'com.android.application'
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+}
+
+
+
+android {
+
+    packagingOptions {
+        pickFirst 'lib/x86/libc++_shared.so'
+        pickFirst 'lib/x86_64/libc++_shared.so'
+        pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+        pickFirst 'lib/arm64-v8a/libc++_shared.so'
+    }
+
+    compileSdkVersion 31
+    buildToolsVersion '31.0.0'
+
+    defaultConfig {
+
+        applicationId "com.rohitparmar.mpboardeducation"
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode 21  // 15/10/22     //20 old 1/5/23  new//21 2/6/23
+        versionName "8.3"  //7.9 version for new update old// 8.2 1/5/23 now 26/12/2022 new//8.3 2/6/23
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+//            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.github.kk121:File-Loader:1.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+
+//    implementation project(path: ':commonlib')
+//    implementation project(path: ':mobilertc')
+//    implementation project(path: ':sample')
+//    implementation fileTree(dir: 'C:\\Users\\admin\\Desktop\\mpbe images\\UNITY ADS\\UnityAds.aar', include: ['*.aar', '*.jar'], exclude: [])
+
+
+    testImplementation 'junit:junit:'
+
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.airbnb.android:lottie:3.7.0'
+
+    implementation 'com.android.support:multidex:1.0.3'
+
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'com.google.firebase:firebase-analytics:19.0.0'
+    implementation 'com.google.firebase:firebase-database:20.0.0'
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    implementation 'com.github.medyo:android-about-page:1.2.6'
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
+//    implementation 'com.onesignal:OneSignal:4.4.0'
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+    implementation 'com.google.firebase:firebase-firestore:22.1.2'
+    implementation 'eu.dkaratzas:android-inapp-update:1.0.5'
+
+   // implementation 'com.google.android.gms:play-services-ads:21.0.0'
+    implementation 'androidx.annotation:annotation:1.5.0'
+    implementation 'com.facebook.android:audience-network-sdk:'
+
+    implementation 'com.google.ads.mediation:facebook:6.8.0.0'
+//  implementation 'com.google.android.ads:mediation-test-suite:2.0.0'
+
+ // implementation project(':nativetemplates')
+//  implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1'
+
+    implementation 'com.squareup.picasso:picasso:2.8'
+    //below two dependency for animation of text in notice home
+    implementation 'com.daimajia.easing:library:2.0@aar'
+    implementation 'com.daimajia.androidanimations:library:2.3@aar'
+
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0'
+}
+apply plugin: 'com.google.gms.google-services'
+

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/vishalbgColor"
+    android:elevation="7dp"
+    android:layout_height="match_parent"
+    tools:context=".Premium.LoginPage.regDone" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:elevation="7dp"
+        android:layout_height="wrap_content" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="#358EFA"
+            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DONE !"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/color_white"
+                android:textSize="55sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.26999998" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-60dp"
+            android:layout_marginBottom="20dp"
+            >
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="5dp"
+                app:layout_constraintVertical_bias="1.0"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="false"
+                app:lottie_rawRes="@raw/correctthree"
+                android:id="@+id/lottiesuccess"
+                app:layout_constraintBottom_toTopOf="@+id/referSet2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <LinearLayout
+                android:id="@+id/referSet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                app:layout_constraintBottom_toTopOf="@+id/referSet2"
+                app:layout_constraintEnd_toEndOf="@+id/lottiesuccess"
+                app:layout_constraintStart_toStartOf="@+id/lottiesuccess"
+                app:layout_constraintTop_toBottomOf="@+id/lottiesuccess">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/teacherImageLay"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginVertical="@dimen/text_margin"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginRight="7dp"
+                    android:src="@drawable/check" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Dear Student, Your Registration is done..."
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+
+                    app:layout_goneMarginTop="15dp" />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/referSet2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_marginHorizontal="10dp"
+                android:text="In order to purchase Crash Course Whatsapp Us..."
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/referSet"
+                app:layout_constraintStart_toStartOf="@+id/referSet"
+                app:layout_constraintTop_toBottomOf="@+id/referSet" />
+
+            <TextView
+                android:id="@+id/referSet3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Thank You "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/referSet2"
+                app:layout_constraintStart_toStartOf="@+id/referSet2"
+                app:layout_constraintTop_toBottomOf="@+id/referSet2" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/Whatsappus"
+            android:layout_width="240dp"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/white"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="190dp"
+                    android:layout_height="120dp"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/whatsappus"
+                    android:id="@+id/lottieWhatsapp"
+                    app:layout_constraintBottom_toTopOf="@+id/referSet2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/lightGray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+
+                    android:text="Whatsapp Us"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/text_size2"
+                    android:textStyle="bold"
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+

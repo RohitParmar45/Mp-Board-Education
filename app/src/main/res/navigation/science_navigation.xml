@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/science_navigation"
+    app:startDestination="@+id/navigation_home">
+
+
+    <fragment android:id="@+id/navigation_home"
+        android:name="com.rohitparmar.mpboardeducation.scienceClass.scienceui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+    <fragment android:id="@+id/navigation_important"
+        android:name="com.rohitparmar.mpboardeducation.scienceClass.scienceui.imp.ImpFragment"
+        android:label="Important"
+        tools:layout="@layout/fragment_imp"/>
+    <fragment android:id="@+id/navigation_notes"
+        android:name="com.rohitparmar.mpboardeducation.scienceClass.scienceui.notes.notesFragment"
+        android:label="Notes"
+        tools:layout="@layout/fragment_notes"/>
+    <fragment android:id="@+id/navigation_previous"
+        android:name="com.rohitparmar.mpboardeducation.scienceClass.scienceui.previous.PreviousFragment"
+        android:label="Previous Years"
+        tools:layout="@layout/fragment_previous"/>
+</navigation>

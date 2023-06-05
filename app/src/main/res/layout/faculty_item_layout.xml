@@ -1,0 +1,67 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:layout_marginVertical="@dimen/text_margin"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TeacherNameLay"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size"
+                    android:fontFamily="@string/regular"
+                    android:text="Principal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TeacherPostLay"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@string/regular"
+                    android:textSize="@dimen/text_size0"
+                    android:text="Principal"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TeacheremailLay"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@string/regular"
+                    android:textColor="#CDDC39"
+                    android:textSize="@dimen/text_size0"
+                    android:text="Rohitparmar181589@gmail.com"/>
+
+
+            </LinearLayout>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/teacherImageLay"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="@dimen/text_margin"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5"
+                android:src="@drawable/profileavatar" />
+
+        </LinearLayout>
+    </LinearLayout>

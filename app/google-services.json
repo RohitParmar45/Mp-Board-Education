@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "414635612526",
+    "firebase_url": "https://mp-board-education-admin-default-rtdb.firebaseio.com",
+    "project_id": "mp-board-education-admin",
+    "storage_bucket": "mp-board-education-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414635612526:android:34e07a4ad0906ba222897f",
+        "android_client_info": {
+          "package_name": "com.rohitparmar.mpboardeducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414635612526-fl0lcsppkdhumgk17b9n7g5s63l72or0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rohitparmar.mpboardeducation",
+            "certificate_hash": "806661507b8f9fc387e64e8002adab56b335a868"
+          }
+        },
+        {
+          "client_id": "414635612526-loab6htjq39b931f3a2humu3fl6rpcrp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rohitparmar.mpboardeducation",
+            "certificate_hash": "b1d3e84532af038ea648a2c8caad7e7e305af59d"
+          }
+        },
+        {
+          "client_id": "414635612526-qj0v83rb69q7q8b1q7cbfd43h5e7k448.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtlWoKygIdYpFzLfRYI_emNURYkubOQkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414635612526-qj0v83rb69q7q8b1q7cbfd43h5e7k448.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414635612526:android:47283fdcb84e983f22897f",
+        "android_client_info": {
+          "package_name": "com.rohitparmar.mpboardeducationadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414635612526-2jnokov5al46ru1m6ohkfud60esg74l3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rohitparmar.mpboardeducationadmin",
+            "certificate_hash": "b1d3e84532af038ea648a2c8caad7e7e305af59d"
+          }
+        },
+        {
+          "client_id": "414635612526-sun8k9hk84ffbv5a914m7q34ri4qu9b3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rohitparmar.mpboardeducationadmin",
+            "certificate_hash": "806661507b8f9fc387e64e8002adab56b335a868"
+          }
+        },
+        {
+          "client_id": "414635612526-qj0v83rb69q7q8b1q7cbfd43h5e7k448.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtlWoKygIdYpFzLfRYI_emNURYkubOQkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414635612526-qj0v83rb69q7q8b1q7cbfd43h5e7k448.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

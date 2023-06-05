@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scienceClass.scienceui.previous.PreviousFragment">
+
+    <ScrollView
+        android:background="@drawable/logobackjpg"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/twenty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="3dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:background="@drawable/button_3"
+                    android:elevation="3dp"
+                    android:fontFamily="@string/regular"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Physics"
+                    android:textColor="#F6F6F4"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/nineteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="3dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:background="@drawable/button_3"
+                    android:elevation="3dp"
+                    android:fontFamily="@string/regular"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Chemistry"
+                    android:textColor="#F6F6F4"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/eighteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="3dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:background="@drawable/button_3"
+                    android:elevation="3dp"
+                    android:fontFamily="@string/regular"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Maths"
+                    android:textColor="#F6F6F4"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/seventeen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="3dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:background="@drawable/button_3"
+                    android:elevation="3dp"
+                    android:fontFamily="@string/regular"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Biology"
+                    android:textColor="#F6F6F4"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/sixteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="3dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:background="@drawable/button_3"
+                    android:elevation="3dp"
+                    android:fontFamily="@string/regular"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="English "
+                    android:textColor="#F6F6F4"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/fifteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="3dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:background="@drawable/button_3"
+                    android:elevation="3dp"
+                    android:fontFamily="@string/regular"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Hindi "
+                    android:textColor="#F6F6F4"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#03A9F4"
+                app:cardElevation="3dp"/>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#03A9F4"
+                app:cardElevation="3dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

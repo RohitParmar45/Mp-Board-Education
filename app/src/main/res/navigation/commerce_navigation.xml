@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/commerce_navigation"
+    app:startDestination="@+id/navigation_Comhome" >
+
+
+    <fragment android:id="@+id/navigation_Comhome"
+        android:name="com.rohitparmar.mpboardeducation.commerceActivity.commerceui.homeCom.homeComFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_com"/>
+
+    <fragment android:id="@+id/navigation_Comimp"
+        android:name="com.rohitparmar.mpboardeducation.commerceActivity.commerceui.impCom.impComFragment"
+        android:label="Important"
+        tools:layout="@layout/fragment_imp_com"/>
+
+    <fragment android:id="@+id/navigation_Comnotes"
+        android:name="com.rohitparmar.mpboardeducation.commerceActivity.commerceui.notesCom.notesComFragment"
+        android:label="Notes"
+        tools:layout="@layout/fragment_notes_com"/>
+
+    <fragment android:id="@+id/navigation_Comprevious"
+        android:name="com.rohitparmar.mpboardeducation.commerceActivity.commerceui.previousCom.PreviousComFragment"
+        android:label="Previous Years"
+        tools:layout="@layout/fragment_previous_com"/>
+</navigation>

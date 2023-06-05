@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_impquestion"
+        android:title="Important Question"
+        android:icon="@drawable/ic_important"
+        />
+
+    <item
+        android:id="@+id/navigation_blueprint"
+        android:title="Blue Print"
+        android:icon="@drawable/ic_gallary"
+        />
+
+    <item
+        android:id="@+id/navigation_youtuber"
+        android:title="Youtube Video"
+        android:icon="@drawable/ic_youtube"
+        />
+
+    <item android:id="@+id/navigation_LeaderBoard"
+        android:title="Leader Board"
+        android:icon="@drawable/ic_people"
+        />
+
+    <item
+        android:id="@+id/navigation_share"
+        android:title="Share"
+        android:icon="@drawable/ic_share"
+        />
+
+    <item
+        android:id="@+id/navigation_rate"
+        android:title="rate us"
+        android:icon="@drawable/ic_rate"
+        />
+
+    <item
+        android:id="@+id/navigation_developer"
+        android:title="Developer"
+        android:icon="@drawable/ic_developer"
+        />
+
+
+</menu>

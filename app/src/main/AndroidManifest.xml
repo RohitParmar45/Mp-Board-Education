@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    package="com.rohitparmar.mpboardeducation">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:name=".OneSignalMp"
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/Theme.MpBoardEducation"
+        tools:replace="android:allowBackup"
+        >
+        <activity
+            android:name=".Premium.LoginPage.regDone"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".Premium.LoginPage.SignIn"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".Premium.YtIndexing.PaidCourses"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".Premium.YtIndexing.YtIndexing"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".Premium.YtIndexing.YtVideoPlayer"
+            android:screenOrientation="landscape"
+            android:exported="true" >
+        </activity>
+
+        <activity
+            android:name=".LargeFiles.tenth.LargeFileTen"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".LargeFiles.Commerce.LargeFileCom"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".LargeFiles.LargeFiles"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".HindiPackage.pyq.PyqHindi"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".HindiPackage.blueprints.Blueprints"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".HindiPackage.rashayan.Rasayan"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".HindiPackage.jivVIgyan.JivClass"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".HindiPackage.ganit.Ganit"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".HindiPackage.bhautik.Bhautik"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".HindiPackage.HindiMain"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".onlineClass.telegramMain"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".tenthclass.tenthHome"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".onlineClass.FaqAnswers.faqAnswer4"
+            android:exported="false" >
+        </activity>
+        <activity android:name=".onlineClass.FaqAnswers.FaqAnswer3"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".onlineClass.FaqAnswers.faqAnswer2"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".onlineClass.FaqAnswers.FabAnswer1"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".onlineClass.FaqActivity"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".FullImageVLottie"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".onlineClass.faculty.facultyFragment"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".onlineClass.OnlineClassMain"
+            android:exported="false" >
+        </activity>
+        <activity android:name=".commerceActivity.ImportantQuesCom.ImpQComActivity"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".scienceClass.impquestion.impQactivity"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".scienceClass.Leader.LeaderActivity"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".regDone"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".tenthclass.SocialX.SocialXPrevious"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".tenthclass.ScienceX.ScienceXPrevious"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".tenthclass.MathsX.MathsXPrevious"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".tenthclass.EnglishX.EngXPrevious"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".commerceActivity.commerceui.Economics.EcoPrevious"
+            android:exported="true">
+        </activity>
+        <activity android:name=".commerceActivity.commerceui.BusinessStudy.BussPrevious"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".commerceActivity.commerceui.Accountancy.AccPrevious"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".FullImageView"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".aboutUsActivity"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".scienceClass.BluePrintSci.BluePrintsActivity"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".scienceClass.Biology.BioPrevious"
+            android:exported="false" >
+        </activity>
+        <activity android:name=".scienceClass.Physics.PhyPrevious"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".scienceClass.Maths.MathsPrevious"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".scienceClass.EnglishSpec.EngSpecPrevious"
+            android:exported="false" >
+        </activity>
+        <activity android:name=".scienceClass.EnglishGen.EngGenAPrevious"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".scienceClass.Chemistry.ChemPrevious"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".scienceClass.scienceui.imp.PdfViewActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".scienceClass.prescienceSubActivity"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".tenthclass.tenthMain"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".scienceClass.scienceMain"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".commerceActivity.commerceMain"
+            android:exported="true" >
+        </activity>
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8065643524026387~9379907553" />
+        <!--
+        // mpbe app id   ca-app-pub-8065643524026387~9379907553
+            // test id   ca-app-pub-3940256099942544~3347511713
+        -->
+        <receiver
+            android:name=".Services.NetworkBroadcast"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
+
+<!--interstial ad used in -->
+<!--largeFile10thadap, largeFileCOmdap , Largefileadap-->
+<!--pdfViewer-->
+<!--largeFile10th-->

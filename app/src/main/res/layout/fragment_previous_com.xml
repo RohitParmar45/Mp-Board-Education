@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".commerceActivity.commerceui.previousCom.PreviousComFragment"    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/logobackjpg"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/twentya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_3"
+                android:fontFamily="@string/regular"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Business Study"
+                android:textColor="#F6F6F4"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/nineteena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_3"
+                android:fontFamily="@string/regular"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Economics"
+                android:textColor="#F6F6F4"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/eighteena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_3"
+                android:fontFamily="@string/regular"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Accountancy"
+                android:textColor="#F6F6F4"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/sixteena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_3"
+                android:fontFamily="@string/regular"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="English "
+                android:textColor="#F6F6F4"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/fifteena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_3"
+                android:fontFamily="@string/regular"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Hindi"
+                android:textColor="#F6F6F4"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+</FrameLayout>
